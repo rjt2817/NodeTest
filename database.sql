@@ -5,5 +5,6 @@ CREATE TABLE users (
 	username varchar(20),
 	fullname varchar(20),
 	password varchar(128),
+	inviteScore varchar(20),
 	PRIMARY KEY (id)
 );
